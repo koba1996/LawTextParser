@@ -1,0 +1,279 @@
+ELSŐ RÉSZ
+ÁLTALÁNOS RENDELKEZÉSEK
+I. FEJEZET
+BEVEZETŐ RENDELKEZÉSEK
+1. § [Hatály]
+
+(1) E törvény hatálya a kormányzati igazgatás szerveinek (a továbbiakban: kormányzati igazgatási szerv) jogállására és szervezetére, továbbá a kormányzati igazgatási szervek tisztségviselőinek szolgálati jogviszonyára terjed ki.
+
+(2) A Kilencedik Rész hatálya kiterjed a kormányzati igazgatási szervek munkavállalóira és azok munkaviszonyára.
+
+(3) *  Az igazságügyért felelős miniszter által vezetett minisztériumba beosztott ügyészre, valamint a kormányzati igazgatási szervhez beosztott bíróra, bírósági titkárra, ha törvény másként nem rendelkezik, a kormánytisztviselőkre vonatkozó rendelkezéseket kell alkalmazni.
+
+(4) E törvény hatálya a 2. §-ban nem szereplő – kormányzati igazgatási szerv irányítása vagy felügyelete alatt álló – szervnél foglalkoztatott személyek kormányzati szolgálati jogviszonyára és munkaviszonyára akkor terjed ki, ha a munkavégzésre irányuló jogviszony az e törvény szerinti álláshelyen jön létre, illetve áll fenn.
+
+(4a) *  Az 1/A. § hatálya kiterjed azokra a foglalkoztatottakra, akiknek a kormányzati szolgálati jogviszonya az 1/A. § alapján jön létre, valamint az őket foglalkoztató szervekre.
+
+(5) E törvény rendelkezéseit a Központi Statisztikai Hivatalra a hivatalos statisztikáról szóló törvényben meghatározott eltérésekkel kell alkalmazni.
+
+(6) *  E törvény hatálya nem terjed ki a Nemzeti Adó- és Vámhivatal személyi állományába tartozó foglalkoztatottak szolgálati jogviszonyára és munkaviszonyára.
+
+(7) E törvény hatálya nem terjed ki a Bevándorlási és Menekültügyi Hivatal személyi állományába tartozó foglalkoztatottak kormányzati szolgálati jogviszonyára és munkaviszonyára.
+
+1/A. § *  [A törvény alkalmazása új kormányzati igazgatási szervre]
+
+(1) Ha jogszabály rendelkezése folytán valamely szerv e törvény hatálya alá tartozó kormányzati igazgatási szervvé alakul át (e § alkalmazásában: új szerv), az új szervre és annak foglalkoztatottjaira – törvény vagy kormányrendelet eltérő rendelkezése hiányában – e törvény rendelkezéseit a szerv átalakulását követő harmadik hónap első napjától kell alkalmazni.
+
+(2) Az (1) bekezdésben foglaltaktól eltérően a 2. §-t, a 4. §-t, a Második Részt és az 51. §-t az új szerv létrehozását követő naptól kell alkalmazni.
+
+(3) Az (1) bekezdés szerinti időpontig az új szervnél foglalkoztatottak jogviszonyára az új szerv jogelőd szervénél (e § alkalmazásában: jogelőd szerv) foglalkoztatottak jogviszonyára irányadó szabályokat kell alkalmazni.
+
+(4) A jogelőd szervnél foglalkoztatottnak a jogelőd szervvel fennálló foglalkoztatási jogviszonya – ide nem értve a munkaviszonyt – az (1) bekezdésben meghatározott időpontban az e törvény szerinti kormányzati szolgálati jogviszonnyá alakul át. A foglalkoztatottat a jogviszony átalakulását követő 15 napon belül tájékoztatni kell a jogviszony átalakulásáról, részére az e törvény szerinti beosztási okiratot ki kell állítani, illetményét a (12) és (13) bekezdés alapján meg kell állapítani.
+
+(5) A (4) bekezdésben foglaltaktól eltérően nem alakul át a jogviszony, ha a foglalkoztatott nem felel meg a kinevezés általános feltételeinek. Ebben az esetben a foglalkoztatott jogviszonyának megszűnésére a 114. § (3) bekezdésében foglaltakat kell alkalmazni.
+
+(6) Az (5) bekezdésben foglaltakat kell alkalmazni, ha a foglalkoztatottal szemben az e törvény szerinti összeférhetetlenség áll fenn, kivéve, ha az összeférhetetlenséget kiváltó ok megszüntethető, és ennek érdekében a foglalkoztatott a jogviszony átalakulását megelőzően intézkedik, és ezt igazolja.
+
+(7) A foglalkoztatottat – a (4) bekezdés szerinti beosztási okirat közlését követő öt munkanapon belül írásban benyújtott kérelmére – a 89. § (5) bekezdésének megfelelő alkalmazásával fel kell menteni azzal, hogy a kinevezésmódosítást megelőző illetményén a (12) és (13) bekezdés szerinti illetményt kell érteni.
+
+(8) A foglalkoztatott jogviszonyának a (4) bekezdés szerinti átalakulása esetén a jogviszonyt a próbaidő, a végkielégítésre és a szolgálati elismerésre való jogosultság szempontjából folyamatosnak kell tekinteni.
+
+(9) A határozatlan időtartamú foglalkoztatási jogviszony – eltérő törvényi rendelkezés hiányában – határozatlan időtartamú kormányzati szolgálati jogviszonnyá alakul át. Teljes munkaidőben történő foglalkoztatás esetén a jogviszony teljes munkaidős kormányzati szolgálati jogviszonnyá alakul át.
+
+(10) A munkáltatói jogkör gyakorlója az új szervnél foglalkoztatott munkavállaló munkaviszonyát – hozzájárulásával – az (1) bekezdésben meghatározott időpontban kormányzati szolgálati jogviszonnyá alakíthatja át azzal, hogy az illetménye nem lehet kevesebb a munkavállalót a foglalkoztató szerv átalakulásának napján megillető munkabérnél. Amennyiben a munkaviszony a foglalkoztató szerv átalakulásának napját követően jött létre, a jogviszony átalakulása esetén az illetmény nem lehet kevesebb a munkaszerződés szerinti munkabérnél.
+
+(11) Az új szerv alaplétszámának megállapítására és álláshelyeinek besorolására az 51. § szerinti eljárás keretében kerül sor. Az álláshelyek besorolásának szempontjait a Kormány állapítja meg a (12) bekezdésben foglaltak figyelembevételével.
+
+(12) A foglalkoztatott e törvény szerinti illetményét úgy kell megállapítani, hogy az nem lehet kevesebb annál, mint amekkora összegre a foglalkoztatott illetményként a kinevezési okirat alapján a foglalkoztató szerv átalakulásának napján jogosult volt azzal, hogy figyelembe kell venni a foglalkoztató szerv átalakulásának napját követően
+
+a) a jogviszonyban töltött idő alapján az illetmény összegében bekövetkező változást,
+
+b) az illetmény elemét képező pótlék megállapítását vagy összegének változását,
+
+c) vezetői munkakörbe vagy vezetői munkakörből nem vezetői munkakörbe helyezés esetén a kinevezésmódosítás szerinti illetményt.
+
+(13) Ha a foglalkoztatott jogviszonya a foglalkoztató szerv átalakulásának napját követően jött létre, a (12) bekezdés alkalmazása során a kinevezési okirata szerinti illetményét kell figyelembe venni.
+
+(14) A foglalkoztatott számára a jogviszony átalakulását megelőző napon meglévő, a jogelőd szervnél ki nem adott szabadságot a jogelőd szerv pénzben megváltja a (3) bekezdés alapján irányadó jogszabály rendelkezései szerint.
+
+(15) E § alkalmazásában nem minősül új kormányzati igazgatási szervnek a kormányzati igazgatási szerv szétválásával, vagy a kormányzati igazgatási szervből történő kiválással létrehozott kormányzati igazgatási szerv.
+
+(16) A jogviszony átalakulásához kapcsolódó, az (1)–(15) bekezdésben nem szabályozott kérdéseket a jogelőd szerv átalakulásáról rendelkező jogszabályban kell rendezni.
+
+2. § [A kormányzati igazgatási szervek]
+
+(1) Kormányzati igazgatási szerv:
+
+a) a központi kormányzati igazgatási szervek és ezek területi, helyi (a továbbiakban együtt: területi) szervei, és
+
+b) a területi kormányzati igazgatási szervek.
+
+(2) Központi kormányzati igazgatási szerv:
+
+a) a Kormány,
+
+b) * 
+
+c) a minisztérium,
+
+d) a kormányzati főhivatal, és
+
+e) a központi hivatal.
+
+(3) Kormányzati főhivatal:
+
+a) a Központi Statisztikai Hivatal,
+
+b) * 
+
+c) a Szellemi Tulajdon Nemzeti Hivatala, és
+
+d) * 
+
+(4) *  Területi kormányzati igazgatási szervek a fővárosi és vármegyei kormányhivatalok (a továbbiakban együtt: kormányhivatal).
+
+3. § [A kormányzati igazgatás tisztségviselői]
+
+(1) A kormányzati igazgatás tisztségviselői
+
+a) politikai szolgálati jogviszonyban,
+
+b) biztosi jogviszonyban, vagy
+
+c) kormányzati szolgálati jogviszonyban
+
+állnak.
+
+(2) Politikai szolgálati jogviszonyban áll:
+
+a) a politikai felsővezető,
+
+b) a politikai vezető, és
+
+c) a politikai tanácsadó, politikai főtanácsadó és a kabinetfőnök (a továbbiakban együtt: tanácsadó).
+
+(3) *  Politikai felsővezető:
+
+a) a miniszterelnök,
+
+b) a miniszter,
+
+c) a miniszterelnök politikai igazgatója,
+
+d) a miniszterelnök nemzetbiztonsági főtanácsadója és
+
+e) az államtitkár.
+
+(4) *  Politikai vezető a főispán.
+
+(5) Biztosi jogviszonyban áll:
+
+a) a kormánybiztos,
+
+b) a miniszterelnöki biztos és
+
+c) a miniszteri biztos.
+
+(6) Kormányzati szolgálati jogviszonyban áll:
+
+a) a szakmai felsővezető,
+
+b) a szakmai vezető,
+
+c) a központi kormányzati igazgatási szervek és ezek területi szervei kormánytisztviselője, és
+
+d) *  a területi kormányzati igazgatási szervek kormánytisztviselője.
+
+(7) *  Szakmai felsővezető:
+
+a) a Miniszterelnöki Kormányiroda és a minisztérium közigazgatási államtitkára,
+
+b) a Miniszterelnöki Kormányiroda, a Nemzeti Fejlesztési Központ és a minisztérium helyettes államtitkára,
+
+c) a kormányzati főhivatal és a központi hivatal vezetője és vezetőjének helyettese,
+
+d) a kormányhivatal főigazgatója (a továbbiakban: főigazgató),
+
+e) a Nemzeti Fejlesztési Központon belül működő főigazgatóságot vezető főigazgató, és
+
+f) a Belső Ellenőrzési és Integritási Igazgatóság vezetője.
+
+(8) *  Szakmai vezető:
+
+a) a kormányhivatal igazgatója,
+
+b) a Nemzeti Fejlesztési Központon belül működő igazgatóság igazgatója,
+
+c) a járási hivatal, illetve a fővárosban a fővárosi kerületi hivatal (a továbbiakban együtt: járási hivatal) vezetője és vezetőjének helyettese,
+
+d) a főosztályvezető, és
+
+e) az osztályvezető.
+
+(9) *  Az e törvényben nem szereplő megbízatás és tisztség kormányzati feladatok teljesítésére nem adható.
+
+(10) *  A miniszterelnök határozatával feljogosíthatja a Miniszterelnöki Kormányirodánál, valamint az általános politikai koordinációért felelős miniszter által vezetett minisztériumban a (2) bekezdés szerinti jogviszonyban foglalkoztatottat a miniszterelnöki tanácsadói vagy miniszterelnöki főtanácsadói megnevezés használatára.
+
+(11) *  A (2) bekezdés c) pontjától eltérően kabinetfőnöknek kinevezhető
+
+a) *  a honvédelemért felelős miniszter által vezetett minisztériumban, hivatásos szolgálati jogviszonyban álló, a honvédek jogállásáról szóló kormányrendelet szerint a minisztériumba vezényelt,
+
+b) a rendészetért felelős miniszter által vezetett minisztériumban a rendvédelmi feladatokat ellátó szervek hivatásos állományának szolgálati jogviszonyáról szóló törvény szerint a minisztériumba vezényelt,
+
+c) a polgári nemzetbiztonsági szolgálatok irányításáért felelős miniszter által vezetett minisztériumban a nemzetbiztonsági szolgálatokról szóló törvény hatálya alá tartozó jogviszonyban foglalkoztatott, a nemzetbiztonsági szolgálatokról szóló törvény és a rendvédelmi feladatokat ellátó szervek hivatásos állományának szolgálati jogviszonyáról szóló törvény szerint a minisztériumba vezényelt
+
+személy is.
+
+4. § [Egyes tisztségviselők tevékenységének irányítása]
+
+Ahol e törvény a miniszterelnök politikai igazgatója, a miniszterelnök nemzetbiztonsági főtanácsadója, államtitkár, közigazgatási államtitkár, helyettes államtitkár, biztosi jogviszonyban álló személy vagy kormányzati igazgatási szerv szervezeti egysége vezetője tevékenységének irányítását említi, azon törvény eltérő rendelkezése hiányában a következő hatásköröket kell érteni: * 
+
+a) egyedi utasítás kiadása egyedi feladat elvégzésére vagy mulasztás pótlására,
+
+b) a vezető tevékenységének ellenőrzése, és
+
+c) jelentéstételre vagy beszámolóra való kötelezés.
+
+MÁSODIK RÉSZ
+A KORMÁNYZATI IGAZGATÁSI SZERVEK
+II. FEJEZET
+A KORMÁNY
+5. § [A miniszterelnök feladatköre]
+
+(1) A miniszterelnök az Alaptörvényben meghatározott feladatkörében eljárva a Kormány irányítása alatt álló, illetve a miniszter irányítása vagy felügyelete alá tartozó szervek vezetői számára feladatokat határozhat meg, továbbá tőlük tájékoztatást kérhet. A feladatmeghatározásról, illetve a tájékoztatáskérésről a szerv vezetője az irányító vagy felügyelő minisztert tájékoztatja.
+
+(2) A miniszterelnök az Alaptörvényben meghatározott feladatkörében eljárva más politikai felsővezető, a közigazgatási államtitkár és a helyettes államtitkár számára feladatot határozhat meg, valamint e tisztségviselőket a feladat- és hatáskörükbe tartozó kérdésekről jelentéstételre vagy beszámolóra kötelezheti. A politikai felsővezető, a közigazgatási államtitkár és a helyettes államtitkár ezekről az őt e törvény szerint irányító személyt tájékoztatja.
+
+6. § [A közvetlen miniszterelnöki irányítás]
+
+(1) A Kormány eredeti jogalkotói hatáskörben kiadott rendeletében az államigazgatás egyes ágazatai, illetve egyes központi államigazgatási szervek vagy azok vezetőinek az irányítására a miniszterelnököt is kijelölheti.
+
+(2) A miniszterelnök részletes feladat- és hatáskörét a Kormány eredeti jogalkotói hatáskörben kiadott rendeletben állapítja meg.
+
+(3) *  A (2) bekezdésben meghatározott kormányrendelet alapján a miniszterelnökhöz átkerülő feladat- és hatáskörök tekintetében – az ellátásukhoz kapcsolódó egyéb feladatokra, jogosultságokra és kötelezettségekre kiterjedően – a feladat- és hatáskört korábban ellátó miniszter által vezetett minisztérium jogutódja – ha a (2) bekezdésben meghatározott kormányrendelet eltérően nem rendelkezik – a 16. § (2) bekezdése szerinti minisztérium.
+
+7. § [A Kormány üléseinek dokumentálása]
+
+(1) A Kormány ülései – a miniszterelnök eltérő rendelkezése hiányában – nem nyilvánosak. A kormányülésen elhangzottakat összefoglalóban kell rögzíteni.
+
+(2) Az összefoglaló tartalmazza a kormányülés helyét és időpontját, az ülésen részt vevők nevét, a tárgyalt írásbeli anyagok címét és az előterjesztő megjelölését, a napirenden kívül szóba került ügyek tárgy szerinti ismertetését, a hozzászólók nevét, szavazás esetén annak tárgyát és számszerű arányát, a Kormány döntésének lényegét. Kérelmére a kormányülésen résztvevő nyilatkozatát, egyet nem értését szó szerint kell rögzíteni. Az összefoglaló mellékleteként meg kell őrizni az előterjesztést, a jelentést, valamint a kormányrendeletek, kormányhatározatok, továbbá a Kormány által meghatározott egyéb iratok eredeti aláírással ellátott egy-egy példányát.
+
+(3) Az ülésről készült összefoglaló eredeti példányát és mellékleteit a Miniszterelnöki Kormányiroda őrzi. Az ülésről készült dokumentáció anyaga nem selejtezhető, maradandó értékű iratnak minősül; kezelésére és megismerésére a köziratok védelméről, a minősített adat védelméről, továbbá a közérdekű adatok nyilvánosságáról szóló rendelkezéseket kell alkalmazni.
+
+(4) Az összefoglaló készítésének, valamint belső kormányzati felhasználásának részletes szabályait a Kormány normatív határozatban határozza meg.
+
+7/A. § *  [A Kormány döntéseinek dokumentálása]
+
+(1) A Miniszterelnöki Kormányiroda sokszorosított formában az érdekelteknek közvetlenül küldi meg
+
+a) a minősített adat védelméről szóló 2009. évi CLV. törvény szerinti minősített adatot tartalmazó kormányhatározatot, és
+
+b) a Kormány eltérő rendelkezése hiányában az a) pont alá nem tartozó kormányhatározatot, ha az kizárólag a Kormány tagja, a Miniszterelnöki Kormányiroda közigazgatási államtitkára, a kormánybiztos, a kormányzati főhivatal vezetője, a rendvédelmi szerv vezetője, vagy a Katonai Nemzetbiztonsági Szolgálat vezetője számára
+
+határoz meg feladatot és nem tartalmaz olyan – a központi költségvetést érintő – rendelkezést, amelyet az Alaptörvényre és az államháztartásról szóló törvényre tekintettel nyilvánosan kell közzétenni.
+
+(2) Ha az (1) bekezdés szerinti – az érdekelteknek közvetlenül megküldött – kormányhatározat minősített adatot nem tartalmaz vagy az adat minősített jellege megszűnt, de a kormányhatározatban foglalt adat megismerése az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény 27. § (2) bekezdésében meghatározott valamely közérdeket veszélyezteti, és a megtagadás alapjául szolgáló közérdek nagyobb súlyú a közérdekű adat megismerésére irányuló igény teljesítéséhez fűződő közérdeknél, ezen adat megismerése iránti igény teljesítését a megtagadás alapjául szolgáló közérdek fennállásáig, de legfeljebb a határozat érdekelteknek történő megküldésétől számított húsz évig meg kell tagadni, vagy az adat megismerésének módját korlátozni kell.
+
+(3) A (2) bekezdésben foglalt adatok megismerése iránti igény teljesíthetőségéről és a megismerés módjáról a Miniszterelnöki Kormányiroda közigazgatási államtitkára dönt, szükség szerint a feladat- és hatáskörrel rendelkező miniszter(ek) véleményének kikérésével.
+
+(4) A (3) bekezdésben meghatározott miniszteri véleményt legkésőbb tizenöt napon belül kell megadni. A vélemény megkérésétől annak megadásáig vagy a véleményadási határidő eredménytelen elteltéig terjedő időtartam az adat megismerése iránti igény teljesítésére rendelkezésre álló határidőbe nem számít bele.
+
+(5) A (2)–(4) bekezdés rendelkezéseit alkalmazni kell
+
+a) a Kormány,
+
+b) kormányzati döntéshozatal – kormány ügyrendje szerinti – általános és különös hatáskörű szakmai döntés-előkészítő fórumai,
+
+c) a Kormány ügyrendje szerinti különös hatáskörű politikai döntéshozó fórumok, és
+
+d) a Kormány által létrehozott, illetve a Kormány ügyrendje szerinti döntéshozó fórum üléséről készült összefoglalók és hangfelvételek esetében is.
+
+8. § [A kabinet]
+
+(1) A Kormány kiemelt fontosságú társadalompolitikai, gazdaságpolitikai vagy nemzetbiztonsági ügyekben a Kormány ülései előtti állásfoglalásra kabinetet hozhat létre.
+
+(2) A kabinet tagjai a feladatkörükben érintett miniszterek, valamint a miniszterelnök által kijelölt személyek. A kabinet ülésére állandó jelleggel meghívott személyek körét, a kabinettag miniszterek helyettesítésére jogosult tisztségviselőket, valamint a további kabinettagok és az állandó meghívottak helyettesítésére jogosult személyeket a kabinetet létrehozó normatív kormányhatározat jelöli ki.
+
+9. § [A kormánybizottság]
+
+(1) A Kormány a hatáskörébe tartozó jelentős, több miniszter feladatkörét érintő feladatok összehangolt megoldásának irányítására kormánybizottságot hozhat létre.
+
+(2) A kormánybizottság tagjai a feladatkörükben érintett miniszterek. A kormánybizottság ülésére állandó jelleggel meghívott személyek körét, valamint a bizottsági tagok helyettesítésére jogosult tisztségviselőket és az állandó meghívottak helyettesítésére jogosult személyeket a kormánybizottságot létrehozó normatív kormányhatározat jelöli ki.
+
+10. § [A testületek]
+
+(1) A Kormány egyéb javaslattevő, véleményező vagy tanácsadói tevékenységet végző testületet hozhat létre. A testület tagjai tevékenységükért tiszteletdíjban részesülhetnek. * 
+
+(2) Az (1) bekezdésben meghatározott testület tagjait, valamint az annak ülésére állandó jelleggel meghívott személyek körét a testületet létrehozó normatív kormányhatározat jelöli ki.
+
+11. § [Egyéb rendelkezések]
+
+(1) A kabinetet, kormánybizottságot létrehozó normatív kormányhatározat rendelkezhet úgy, hogy a kabinet, kormánybizottság tagja a miniszterelnök is.
+
+(2) Nem rendelkezik ügydöntő jogkörrel
+
+a) – törvény vagy kormányrendelet eltérő rendelkezése hiányában – a kabinet és a kormánybizottság, valamint
+
+b) a Kormány egyéb javaslattevő, véleményező vagy tanácsadói tevékenységet végző testülete.
+
+Forrás: https://net.jogtar.hu/jogszabaly?docid=a1800125.tv#lbj10idb2f1  - Wolters Kluwer - Minden jog fenntartva!
