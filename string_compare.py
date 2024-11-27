@@ -1,29 +1,19 @@
-import numpy as np
-
 MATCH_START = '\033[91m'
 MATCH_END = '\033[0m'
 
-class Match:
-    def __init__(self, first_start, first_end, second_start, second_end):
-        self.first_start = first_start
-        self.first_end = first_end
-        self.second_start = second_start
-        self.second_end = second_end
 
-    def __repr__(self) -> str:
-        return f'({self.first_start}, {self.first_end}, {self.second_start}, {self.second_end})'
-    
-    def __eq__(self, other):
-        if isinstance(other, Match):
-            return self.first_start == other.first_start and self.first_end == other.first_end or self.second_start == other.second_start and self.second_end == other.second_end
-        return False
-    
-    def __hash__(self):
-        return hash((self.first_start, self.first_end, self.second_start, self.second_end))
+def create_matrix_with_zeros(rows, columns):
+    matrix = []
+    for i in range(rows):
+        row = []
+        for j in range(columns):
+            row.append(0)
+        matrix.append(row)
+    return matrix
 
 
 def find_longest_common_substring(first: str, second: str) -> tuple:
-    matrix = np.zeros((len(first), len(second)))
+    matrix = create_matrix_with_zeros(len(first), len(second))
     length = 0
     indexes = set()
     for i in range(len(first)):
@@ -36,9 +26,9 @@ def find_longest_common_substring(first: str, second: str) -> tuple:
                 if matrix[i][j] > length:
                     length = matrix[i][j]
                     indexes = set()
-                    indexes.add(Match(int(i - length + 1), i, int(j - length + 1), j))
+                    indexes.add((int(i - length + 1), i, int(j - length + 1), j))
                 elif matrix[i][j] == length:
-                    indexes.add(Match(int(i - length + 1), i, int(j - length + 1), j))
+                    indexes.add((int(i - length + 1), i, int(j - length + 1), j))
             else:
                 matrix[i][j] = 0
     return indexes
@@ -48,7 +38,7 @@ def compare_strings():
     pass
 
 
-def format_output(str1, str2, matches):
+def format_output(str1, str2, matches): #matches needs to be sorted -> first string indexes, second string indexes
     str1_parts = set()
     str2_parts = set()
     str1_formatted = ''
@@ -56,10 +46,10 @@ def format_output(str1, str2, matches):
     index1 = 0
     index2 = 0
     for match in matches:
-        start_index1 = match.first_start
-        start_index2 = match.second_start
-        end_index1 = match.first_end
-        end_index2 = match.second_end
+        start_index1 = match[0]
+        start_index2 = match[2]
+        end_index1 = match[1]
+        end_index2 = match[3]
         part_str_rep1 = str(start_index1) + '-' + str(end_index1)
         part_str_rep2 = str(start_index2) + '-' + str(end_index2)
         if part_str_rep1 in str1_parts or part_str_rep2 in str2_parts:
@@ -75,7 +65,8 @@ def format_output(str1, str2, matches):
     return (str1_formatted, str2_formatted)
 
 str1 = 'ahaccahac'
-str2 = 'bahabahab'
+str2 = 'bahabahab'   
 result = format_output(str1, str2, find_longest_common_substring(str1, str2))
+
 print(result[0])
 print(result[1])
