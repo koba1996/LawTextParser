@@ -1,5 +1,15 @@
 MATCH_START = '\033[91m'
 MATCH_END = '\033[0m'
+MINIMUM_MATCH_LENGTH = 3
+
+
+class Compared_Strings:
+
+    def __init__(self, str1, str2, index1, index2):
+        self.str1 = str1
+        self.str2 = str2
+        self.index1 = index1
+        self.index2 = index2
 
 
 def create_matrix_with_zeros(rows, columns):
@@ -12,10 +22,27 @@ def create_matrix_with_zeros(rows, columns):
     return matrix
 
 
-def find_longest_common_substring(first: str, second: str) -> tuple:
+# TODO: handle overlapping
+def filter_duplicates(indexes: list) -> list:
+    first_pairs = set()
+    second_pairs = set()
+    unique_indexes = []
+    for index_pair in indexes:
+        first = str(index_pair[0]) + "-" + str(index_pair[1])
+        second = str(index_pair[2]) + "-" + str(index_pair[3])
+        if first not in first_pairs and second not in second_pairs:
+            unique_indexes.append(index_pair)
+            first_pairs.add(first)
+            second_pairs.add(second)
+    return unique_indexes
+
+
+def find_longest_common_substring(first: str, second: str) -> list:
+    if len(first) < MINIMUM_MATCH_LENGTH or len(second) < MINIMUM_MATCH_LENGTH:
+        return []
     matrix = create_matrix_with_zeros(len(first), len(second))
     length = 0
-    indexes = set()
+    indexes = []
     for i in range(len(first)):
         for j in range(len(second)):
             if first[i] == second[j]:
@@ -25,20 +52,86 @@ def find_longest_common_substring(first: str, second: str) -> tuple:
                     matrix[i][j] = matrix[i - 1][j - 1] + 1
                 if matrix[i][j] > length:
                     length = matrix[i][j]
-                    indexes = set()
-                    indexes.add((int(i - length + 1), i, int(j - length + 1), j))
+                    indexes = []
+                    indexes.append([int(i - length + 1), i, int(j - length + 1), j])
                 elif matrix[i][j] == length:
-                    indexes.add((int(i - length + 1), i, int(j - length + 1), j))
+                    indexes.append([int(i - length + 1), i, int(j - length + 1), j])
             else:
                 matrix[i][j] = 0
-    return indexes
+    if len(indexes) == 0 or indexes[0][1] - indexes[0][0] + 1 < MINIMUM_MATCH_LENGTH:
+        return []
+    return filter_duplicates(indexes)
 
 
-def compare_strings():
-    pass
+def split_strings(first: str, second: str, index_pairs: list, first_offset=0, second_offset=0) -> list:
+    if len(index_pairs) == 0:
+        return []
+    result = [{
+        "first_str": first[:index_pairs[0][0]],
+        "second_str": second[:index_pairs[0][2]],
+        "first_index": first_offset,
+        "second_index": second_offset
+    }]
+    for i in range(len(index_pairs)):
+        if i != len(index_pairs) - 1:
+            result.append({
+                "first_str": first[index_pairs[i][1] + 1:index_pairs[i + 1][0]],
+                "second_str": second[index_pairs[i][3] + 1:index_pairs[i + 1][2]],
+                "first_index": index_pairs[i][1] + 1 + first_offset,
+                "second_index": index_pairs[i][3] + 1 + second_offset
+            })
+        else:
+            result.append({
+                "first_str": first[index_pairs[i][1] + 1:],
+                "second_str": second[index_pairs[i][3] + 1:],
+                "first_index": index_pairs[i][1] + 1 + first_offset,
+                "second_index": index_pairs[i][3] + 1 + second_offset
+            })
+    return result
 
 
-def format_output(str1, str2, matches): #matches needs to be sorted -> first string indexes, second string indexes
+def compare_strings(first: str, second: str, first_offset=0, second_offset=0):
+    index_pairs = find_longest_common_substring(first, second)
+    if len(index_pairs) == 0:
+        return []
+    str_parts = split_strings(first, second, index_pairs, first_offset, second_offset)
+    for i in range(len(index_pairs)):
+        index_pairs[i][0] += first_offset
+        index_pairs[i][1] += first_offset
+        index_pairs[i][2] += second_offset
+        index_pairs[i][3] += second_offset
+    position = 0
+    for str_part in str_parts:
+        sub_index_pairs = compare_strings(str_part["first_str"], str_part["second_str"], str_part["first_index"], str_part["second_index"])
+        if position < len(index_pairs):
+            index_pairs = index_pairs[:position] + sub_index_pairs + index_pairs[position:]
+            position += len(sub_index_pairs) + 1
+        else:
+            index_pairs = index_pairs[:position] + sub_index_pairs
+    return index_pairs
+
+
+def get_first_index(index_pair):
+    return index_pair[0]
+
+
+def prepare_match_object(first: str, second: str, index_pairs: list) -> Compared_Strings:
+    first_str_indexes = []
+    second_str_indexes = []
+    for index_pair in index_pairs:
+        first_str_indexes.append(index_pair[:2])
+        second_str_indexes.append(index_pair[2:])
+    first_str_indexes = sorted(first_str_indexes, key=get_first_index)
+    second_str_indexes = sorted(second_str_indexes, key=get_first_index)
+    return Compared_Strings(first, second, first_str_indexes, second_str_indexes)
+    
+
+# Not working perfectly, it's only for quick visuals. I will not fix it,
+# because in the next patch we will create a formatter method in another file
+# and it will use Compared_Strings object instead of a list of lists. 
+# Then I will remove this one.
+# It is a mess by the way, I refuse to debug it.
+def format_output(str1, str2, matches):
     str1_parts = set()
     str2_parts = set()
     str1_formatted = ''
@@ -64,9 +157,20 @@ def format_output(str1, str2, matches): #matches needs to be sorted -> first str
     str2_formatted += str2[index2:]
     return (str1_formatted, str2_formatted)
 
-str1 = 'ahaccahac'
-str2 = 'bahabahab'   
-result = format_output(str1, str2, find_longest_common_substring(str1, str2))
+str1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+str2 = "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 
-print(result[0])
-print(result[1])
+result = compare_strings(str1, str2)
+formatted = format_output(str1, str2, result)
+
+compare_object = prepare_match_object(str1, str2, result)
+
+print(result)
+print(formatted[0])
+print(formatted[1])
+print(compare_object.str1)
+print(compare_object.str2)
+print(compare_object.index1)
+print(compare_object.index2)
+
+# print(find_longest_common_substring('xabaacax', 'yaaabaacay'))
