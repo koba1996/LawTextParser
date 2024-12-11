@@ -130,54 +130,7 @@ def prepare_match_object(first: str, second: str, index_pairs: list) -> Compared
     first_str_indexes = sorted(first_str_indexes, key=get_first_index)
     second_str_indexes = sorted(second_str_indexes, key=get_first_index)
     return Compared_Strings(first, second, first_str_indexes, second_str_indexes)
-    
 
-# Not working perfectly, it's only for quick visuals. I will not fix it,
-# because in the next patch we will create a formatter method in another file
-# and it will use Compared_Strings object instead of a list of lists. 
-# Then I will remove this one.
-# It is a mess by the way, I refuse to debug it.
-def format_output(str1, str2, matches):
-    str1_parts = set()
-    str2_parts = set()
-    str1_formatted = ''
-    str2_formatted = ''
-    index1 = 0
-    index2 = 0
-    for match in matches:
-        start_index1 = match[0]
-        start_index2 = match[2]
-        end_index1 = match[1]
-        end_index2 = match[3]
-        part_str_rep1 = str(start_index1) + '-' + str(end_index1)
-        part_str_rep2 = str(start_index2) + '-' + str(end_index2)
-        if part_str_rep1 in str1_parts or part_str_rep2 in str2_parts:
-            continue
-        str1_parts.add(part_str_rep1)
-        str2_parts.add(part_str_rep2)
-        str1_formatted += str1[index1:start_index1] + MATCH_START + str1[start_index1:end_index1 + 1] + MATCH_END
-        index1 = end_index1 + 1
-        str2_formatted += str2[index2:start_index2] + MATCH_START + str2[start_index2:end_index2 + 1] + MATCH_END
-        index2 = end_index2 + 1
-    str1_formatted += str1[index1:]
-    str2_formatted += str2[index2:]
-    return (str1_formatted, str2_formatted)
 
-str1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-str2 = "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-
-result = compare_strings(str1, str2)
-formatted = format_output(str1, str2, result)
-
-compare_object = prepare_match_object(str1, str2, result)
-
-print(result)
-print(formatted[0])
-print(formatted[1])
-print(compare_object.str1)
-print(compare_object.str2)
-print(compare_object.index1)
-print(compare_object.index2)
-
-# print(find_longest_common_substring('xabacax', 'yabaacay'))
-# print(find_longest_common_substring('aba', 'abaaba'))
+def perform_full_compare(first: str, second: str) -> Compared_Strings:
+    return prepare_match_object(first, second, compare_strings(first, second))
