@@ -22,18 +22,24 @@ def create_matrix_with_zeros(rows, columns):
     return matrix
 
 
-# TODO: handle overlapping
-def filter_duplicates(indexes: list) -> list:
-    first_pairs = set()
-    second_pairs = set()
+def is_distinct_interval(interval, prev_intervals):
+    for prev_interval in prev_intervals:
+        if prev_interval[0] <= interval[0] <= prev_interval[1] or prev_interval[0] <= interval[1] <= prev_interval[1]:
+            return False
+    return True
+
+
+def filter_overlapping(indexes: list) -> list:
+    first_pairs = []
+    second_pairs = []
     unique_indexes = []
     for index_pair in indexes:
-        first = str(index_pair[0]) + "-" + str(index_pair[1])
-        second = str(index_pair[2]) + "-" + str(index_pair[3])
-        if first not in first_pairs and second not in second_pairs:
+        first = [index_pair[0], index_pair[1]]
+        second = [index_pair[2], index_pair[3]]
+        if is_distinct_interval(first, first_pairs) and is_distinct_interval(second, second_pairs):
             unique_indexes.append(index_pair)
-            first_pairs.add(first)
-            second_pairs.add(second)
+            first_pairs.append(first)
+            second_pairs.append(second)
     return unique_indexes
 
 
@@ -60,7 +66,7 @@ def find_longest_common_substring(first: str, second: str) -> list:
                 matrix[i][j] = 0
     if len(indexes) == 0 or indexes[0][1] - indexes[0][0] + 1 < MINIMUM_MATCH_LENGTH:
         return []
-    return filter_duplicates(indexes)
+    return filter_overlapping(indexes)
 
 
 def split_strings(first: str, second: str, index_pairs: list, first_offset=0, second_offset=0) -> list:
@@ -173,4 +179,5 @@ print(compare_object.str2)
 print(compare_object.index1)
 print(compare_object.index2)
 
-# print(find_longest_common_substring('xabaacax', 'yaaabaacay'))
+# print(find_longest_common_substring('xabacax', 'yabaacay'))
+# print(find_longest_common_substring('aba', 'abaaba'))
