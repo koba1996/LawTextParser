@@ -1,6 +1,6 @@
 MATCH_START = '\033[91m'
 MATCH_END = '\033[0m'
-MINIMUM_MATCH_LENGTH = 3
+MINIMUM_MATCH_LENGTH = 7
 
 
 class Compared_Strings:
