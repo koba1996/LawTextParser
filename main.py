@@ -1,10 +1,15 @@
 from string_compare import perform_full_compare
 from output_formatter import format_output
+from sentence_breaker import prepare_sections
 
-
-str1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-str2 = "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-match_object = perform_full_compare(str1, str2)
-formatted_output = format_output(match_object)
-print(formatted_output[0])
-print(formatted_output[1])
+law, explanation = prepare_sections("torveny.txt", "indoklas.txt")
+for i in range(min(len(law), len(explanation))):
+    str1 = law[i]
+    str2 = explanation[i]
+    match_object = perform_full_compare(str1, str2)
+    if len(match_object.index1) > 0:
+        formatted_output = format_output(match_object)
+        print(formatted_output[0])
+        print("--------------------------------------------")
+        print(formatted_output[1])
+        print("============================================")

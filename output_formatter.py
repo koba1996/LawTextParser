@@ -6,6 +6,8 @@ MATCH_END = '\033[0m'
 
 
 def format_one_string(string, index_pairs):
+    if len(index_pairs) == 0:
+        return string
     formatted_string = ''
     formatted_string += string[:index_pairs[0][0]]
     for i in range(len(index_pairs)):
